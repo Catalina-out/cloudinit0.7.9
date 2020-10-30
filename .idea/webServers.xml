@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="391f3fe2-dfd2-4fda-a5b5-4d5354fd0516" name="10.243.8.21" url="http://10.243.8.21">
+        <fileTransfer rootFolder="/usr/lib/python2.7/site-packages/cloudinit/" accessType="SFTP" host="10.243.8.21" port="22" sshConfigId="4cfa00d3-596d-4bff-ad43-7d8fe67ae826" sshConfig="root@10.243.8.21:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
