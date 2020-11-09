@@ -649,7 +649,7 @@ def main(sysv_args=None):
         logging.setupBasicLogging()
 
     # Setup signal handlers before running
-    signal_handler.attach_handlers() #不明白为什么要执行这段程序 设置信号是个什么概念
+    signal_handler.attach_handlers() #设置信号的概念为,防止用户类似于输入ctrl+c 中断程序,导致数据损坏
 
     if name in ("modules", "init"):
         functor = status_wrapper
